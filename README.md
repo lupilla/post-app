@@ -1,4 +1,4 @@
-# todo-app
+# post-app
 
 This app is a `posts app` under the **SPA paradigm**.\
 It is implemented with Vuejs and Vuex.\
@@ -7,7 +7,7 @@ It is implemented with Vuejs and Vuex.\
 
 ## routes
 
-The app has a router configuration for filtering with 3 main routes:
+The app has a router configuration for filtering with 4 main routes:
 
 - `Home` (default route: "/")
   
@@ -17,13 +17,11 @@ The app has a router configuration for filtering with 3 main routes:
 
 - `Detail` (route: "/detail/:id")
 
-- `Page not found` (default route: "/")
-
-The application shows a `404 page error` with routes that not match with the three commented routes.
+The application shows a `404 page error (Page not found)` with routes that not match with the main commented routes.
 
 ## store
 
-A store is implemented with Vuex inside the app to manage the todos state in a module with state, getters, mutations and actions included.\
+A store is implemented with Vuex inside the app to manage the posts state in a module with state, getters, mutations and actions included.\
 The app makes use of vuex via mapActions and mapGetters to access to the state in the store.\
 
 It has a main page named `HomePage`.\
@@ -72,6 +70,10 @@ The components included are these ones:
 
 - `NavBar`
 
+- `FooterComponent`
+
+- `Spinner`
+
 ### Api
 
 The api file contains the baseURL neede for http request for the posts.
@@ -82,11 +84,13 @@ The api file contains the baseURL neede for http request for the posts.
 
 ### Getters
 
-- `getAllPosts`: This getter provides all todos stored in the store
+- `getAllPosts`: This getter provides all posts stored in the store
 
-- `getAllContacts`: This getter provides only completed todos stored in the store
+- `getAllContacts`: This getter provides all the contatcs stored
 
 - `getPostById`: This getter provides a post by an id
+
+- `getAllContactsLength`: This getter provides the length of the contacts collection in the store
 
 ## Actions
 
