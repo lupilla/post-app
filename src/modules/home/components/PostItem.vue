@@ -34,7 +34,7 @@ export default {
   justify-content: flex-end;
   width: 100%;
   padding-right: 16px;
-  color: #8cd96b;
+  color: #42b983;
   font-weight: bold;
   align-self: flex-end;
   padding-bottom: 16px;

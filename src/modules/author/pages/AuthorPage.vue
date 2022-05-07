@@ -57,6 +57,7 @@ export default {
   max-width: 1154px;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 .autor-info {
   display: flex;
