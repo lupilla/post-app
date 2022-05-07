@@ -54,6 +54,10 @@ The components included are these ones:
 
 - `BaseButton`
 
+- `ContactList`
+
+- `ContactItem`
+
 ### Home module
 
 - `Pagination`
@@ -62,6 +66,40 @@ The components included are these ones:
 
 - `PostsColletion`
 
+- `PostItem`
+
+### Shared components
+
+- `NavBar`
+
+### Api
+
+The api file contains the baseURL neede for http request for the posts.
+
+* * *
+
+## Methods included in the sotre
+
+### Getters
+
+- `getAllPosts`: This getter provides all todos stored in the store
+
+- `getAllContacts`: This getter provides only completed todos stored in the store
+
+- `getPostById`: This getter provides a post by an id
+
+## Actions
+
+- `loadPosts`: This action makes a GET request to bring posts from baseURL
+
+- `addContact`: This action add a new contact to the store
+
+## Mutations
+
+- `setPosts`: Mutation that sets a collection of posts in the store provided
+
+- `addContact`: Mutation that creates a contact in the store
+  
 * * *
 
 ## Dependencies included in this project by version
