@@ -4,7 +4,7 @@ import * as getters from "./getters";
 import * as mutations from "./mutations";
 
 /**
- * Module object of todo store state
+ * Module object of posts in the store initialization
  * This module contains actions, getters, mutations and state
  */
 const postsModule = {
