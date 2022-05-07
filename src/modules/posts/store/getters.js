@@ -22,3 +22,9 @@ export const getPostById =
     if (!post) return;
     return { ...post };
   };
+
+/**
+ * This getter provides only completed todos stored in the store
+ * @param {Object} state: state global object for getting data
+ */
+export const getAllContactsLength = (state) => state.contacts.length;

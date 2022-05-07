@@ -1,7 +1,7 @@
 <template>
   <div class="navigation-wrapper">
     <div class="container">
-      <img src="@/assets/mandala.png" alt="logo" class="logo" />
+      <img src="@/assets/logo.png" alt="logo" class="logo" />
       <nav class="nav">
         <router-link class="link" to="/">Inicio</router-link>
         <router-link class="link" to="/contact">Contacto</router-link>
