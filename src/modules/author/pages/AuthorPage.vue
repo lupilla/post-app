@@ -40,6 +40,7 @@
 
 <script>
 export default {
+  name: "AuthorPage",
   data() {
     return {
       user: Number,

@@ -1,11 +1,11 @@
 /**
- * This getter provides all todos stored in the store
+ * This getter provides all posts stored in the store
  * @param {Object} state: state global object for getting data
  */
 export const getAllPosts = (state) => state.posts;
 
 /**
- * This getter provides only completed todos stored in the store
+ * This getter provides all contacts stored
  * @param {Object} state: state global object for getting data
  */
 export const getAllContacts = (state) => state.contacts;
@@ -24,7 +24,7 @@ export const getPostById =
   };
 
 /**
- * This getter provides only completed todos stored in the store
+ * This getter provides the length of the contacts stored
  * @param {Object} state: state global object for getting data
  */
 export const getAllContactsLength = (state) => state.contacts.length;

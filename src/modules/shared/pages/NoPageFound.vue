@@ -4,6 +4,11 @@
     <img src="@/assets/not-found.png" alt="not found" class="image" />
   </section>
 </template>
+<script>
+export default {
+  name: "notFound",
+};
+</script>
 <style scoped lang="scss">
 .description {
   padding-top: 40px;
